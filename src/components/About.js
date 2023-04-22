@@ -8,3 +8,5 @@ const image = props.image || "https://via.placeholder.com/215"
         </aside>
     )
 }
+
+export default About;
