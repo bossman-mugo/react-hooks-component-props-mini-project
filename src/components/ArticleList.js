@@ -1,7 +1,7 @@
 import Article from "./Article";
 
 function ArticleList(props){
-const articles = props.articles.map((article) => (
+const articleFeatures = props.articles.map((article) => (
     <Article
     key={article.id}
     title={article.title}
@@ -11,7 +11,7 @@ const articles = props.articles.map((article) => (
 ));
 
     return (
-        <main>{articles}</main>
+        <main>{articleFeatures}</main>
 
     )
 }
