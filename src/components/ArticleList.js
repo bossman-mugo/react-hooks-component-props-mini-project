@@ -1,3 +1,5 @@
+import Article from "./Article";
+
 function ArticleList(props){
 const articles = props.articles.map((article) => (
     <Article
